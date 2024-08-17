@@ -17,8 +17,8 @@
 		background-color: var(--text);
 		border-radius: 12px;
 		padding: 48px;
-        margin-top: 172px;
-        margin-bottom: 172px;
+		margin-top: 172px;
+		margin-bottom: 172px;
 	}
 
 	h2 {
@@ -27,12 +27,44 @@
 
 	p {
 		color: var(--bg);
-        font-size: 20px;
-        font-weight: 400;
+		font-size: 20px;
+		font-weight: 400;
 	}
-    .text-container {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
+	.text-container {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	@media (max-width: 1200px) {
+		.cta {
+			margin-top: 96px;
+			margin-bottom: 96px;
+        }
+	}
+
+	@media (max-width: 1000px) {
+		.cta {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin-top: 72px;
+			margin-bottom: 72px;
+		}
+		h2 {
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+			font-size: 16px;
+			margin-bottom: 24px;
+		}
+
+		.text-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
 </style>

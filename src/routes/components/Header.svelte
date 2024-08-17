@@ -50,7 +50,7 @@
 			justify-content: space-between;
 			align-items: center;
 			margin: 0 0;
-			padding-top: 0px;
+			padding-top: 16px;
 		}
 	}
 

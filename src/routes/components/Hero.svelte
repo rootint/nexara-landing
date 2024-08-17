@@ -50,4 +50,22 @@
 		text-align: center;
 		margin-bottom: 64px;
 	}
+
+	@media (max-height: 720px) {
+		.hero {
+			height: 720px;
+		}
+	}
+
+	@media (max-width: 900px) {
+		.hero {
+			height: 800px;
+		}
+		.subtitle {
+			font-size: 20px;
+			max-width: 560px;
+			text-align: center;
+			margin-bottom: 48px;
+		}
+	}
 </style>

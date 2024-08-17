@@ -129,15 +129,97 @@
 		display: flex;
 		flex-direction: row;
 	}
-    .text-container {
-        padding-right: 16px;
-    }
+	.text-container {
+		padding-right: 16px;
+	}
 	.text-container h4 {
 		color: var(--bg);
 		text-align: start;
 	}
 	.text-container p {
 		color: #ccc;
-        text-align: start;
+		text-align: start;
+	}
+
+	@media (max-width: 1200px) {
+		.bento-grid {
+			display: grid;
+			gap: 20px;
+			grid-template-columns: repeat(12, 1fr);
+			grid-template-rows: auto;
+			margin-bottom: 96px;
+			margin-top: 48px;
+		}
+		.ru-card {
+			grid-column: span 7;
+			grid-row: span 1;
+		}
+		.ru-card .text-block {
+			margin-top: 16px;
+		}
+
+		.api-card {
+			grid-column: span 7;
+			grid-row: span 1;
+		}
+
+		.cta-card {
+			grid-column: span 12;
+			grid-row: span 1;
+		}
+		.grid-element {
+			padding: 24px;
+		}
+	}
+
+	@media (max-width: 960px) {
+		.ease-card {
+			grid-column: span 7;
+			grid-row: span 2;
+		}
+		.ru-card {
+			grid-column: span 5;
+			grid-row: span 1;
+		}
+		.api-card {
+			grid-column: span 5;
+			grid-row: span 1;
+		}
+		.cta-card {
+			background-color: #222;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			flex-direction: column;
+		}
+		.text-container {
+			padding-right: 0px;
+		}
+		.text-container h4 {
+			color: var(--bg);
+			text-align: center;
+		}
+		.text-container p {
+			color: #ccc;
+			text-align: center;
+			margin-bottom: 24px;
+		}
+	}
+
+	@media (max-width: 800px) {
+		.bento-grid {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 72px;
+			margin-top: 32px;
+		}
+		.ru-card .text-block {
+			margin-top: 24px;
+		}
+		.api-card .text-block,
+		.ease-card .text-block,
+		.cheap-card .text-block {
+			margin-top: 16px;
+		}
 	}
 </style>

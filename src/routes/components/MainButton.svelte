@@ -78,4 +78,27 @@
 			background-position: -200% center;
 		}
 	}
+
+	@media (max-width: 1200px) {
+		.cta-btn {
+			padding: 20px 28px;
+			min-width: unset;
+		}
+	}
+
+	@media (max-width: 800px) {
+		.cta-btn {
+			padding: 16px 24px;
+			min-width: 211px;
+		}
+		p {
+			margin-right: 6px;
+			color: #fff;
+			font-size: 16px;
+			background-color: none;
+		}
+		.row {
+			align-items: center;
+		}
+	}
 </style>

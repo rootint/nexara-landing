@@ -27,7 +27,7 @@
 			</div>
 			<div style="padding-bottom: 16px"></div>
 			<img src={line} alt="Просто линия" />
-            <div style="padding-bottom: 16px"></div>
+			<div style="padding-bottom: 16px"></div>
 			<p class="small-text">От 100₽ за миллион токенов за инференс и от 50₽ за обучение моделей.</p>
 		</div>
 		<div class="card">
@@ -71,6 +71,7 @@
 		background-color: var(--bg-2);
 		border-radius: 12px;
 		padding: 32px;
+		flex: 1;
 	}
 	h4 {
 		margin-bottom: 32px;
@@ -84,7 +85,17 @@
 	.option-text {
 		margin-left: 8px;
 	}
-    .small-text {
-        color: var(--text-2);
-    }
+	.small-text {
+		color: var(--text-2);
+	}
+
+	@media (max-width: 1000px) {
+		.cards {
+            flex-direction: column;
+            align-items: center;
+        }
+        .card {
+            width: 100%;
+        }
+	}
 </style>
