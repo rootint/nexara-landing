@@ -5,7 +5,7 @@
 <section class="cta">
 	<div class="text-container">
 		<h2>Давайте познакомимся!</h2>
-		<p>Оставьте нам свои контакты и мы свяжемся с вами.</p>
+		<p>Оставьте нам свои контакты и мы свяжемся с Вами.</p>
 	</div>
 	<MainButton theme="light"></MainButton>
 </section>

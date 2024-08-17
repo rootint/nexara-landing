@@ -9,13 +9,13 @@
 
 <section class="features" id="features">
 	<h2>Мощные возможности, простые решения</h2>
-	<h3>От сбора данных до развертывания - всё под вашим контролем.</h3>
+	<h3>От сбора данных до развертывания - всё под Вашим контролем.</h3>
 	<div class="bento-grid">
 		<div class="grid-element data-card">
 			<img src={dataCollection} alt="Графика показывает сбор данных с моделей." />
 			<div class="text-block">
 				<h4>Сбор данных</h4>
-				<p class="h4-subtitle">Сохраняйте все промпты и запросы к вашим LLM.</p>
+				<p class="h4-subtitle">Сохраняйте все промпты и запросы к Вашим LLM.</p>
 			</div>
 		</div>
 		<div class="grid-element cheap-card">
@@ -34,7 +34,7 @@
 				alt="Графика показывает простоту использования, модели можно обучать в два клика"
 			/>
 			<div class="text-block">
-				<h4>Простота</h4>
+				<h4>Удобство</h4>
 				<p class="h4-subtitle">Обучайте и развертывайте модели за пару кликов.</p>
 			</div>
 		</div>
@@ -58,7 +58,7 @@
 		<div class="grid-element cta-card">
 			<div class="text-container">
 				<h4>Напишите нам</h4>
-				<p class="h4-subtitle">А мы вам назначим ознакомительную встречу.</p>
+				<p class="h4-subtitle">А мы Вам назначим ознакомительную встречу.</p>
 			</div>
 			<MainButton theme="light"></MainButton>
 		</div>

@@ -5,7 +5,7 @@
 
 <section class="pricing" id="pricing">
 	<h2>Тарифы</h2>
-	<h3>Выберите план, подходящий вашему бизнесу.</h3>
+	<h3>Выберите план, подходящий Вашему бизнесу.</h3>
 	<div class="cards">
 		<div class="card">
 			<h4>Гибкий</h4>
@@ -38,7 +38,7 @@
 			</div>
 			<div class="option-container">
 				<Check color="#222" size="20" />
-				<p class="option-text">Настройка на ваших серверах</p>
+				<p class="option-text">Настройка на Ваших серверах</p>
 			</div>
 			<div class="option-container">
 				<Check color="#222" size="20" />
