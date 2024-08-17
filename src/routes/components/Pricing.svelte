@@ -71,7 +71,6 @@
 		background-color: var(--bg-2);
 		border-radius: 12px;
 		padding: 32px;
-		flex: 1;
 	}
 	h4 {
 		margin-bottom: 32px;
@@ -89,8 +88,13 @@
 		color: var(--text-2);
 	}
 
+    .card img {
+        max-width: 100%;
+    }
+
 	@media (max-width: 1000px) {
 		.cards {
+            width: 100%;
             flex-direction: column;
             align-items: center;
         }
