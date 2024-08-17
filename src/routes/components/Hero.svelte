@@ -3,11 +3,15 @@
 </script>
 
 <section class="hero">
-	<h1 class="title">Сократите расходы на LLM в 5 раз</h1>
-	<p class="subtitle">
-		Создавайте более быстрые и дешевые модели на основе своих данных. Без знаний ML.
-	</p>
-	<MainButton></MainButton>
+	<div class="animate-text">
+		<h1 class="title">Сократите расходы на LLM в 5 раз</h1>
+		<p class="subtitle">
+			Создавайте более быстрые и дешевые модели на основе своих данных. Без знаний ML.
+		</p>
+	</div>
+	<div class="animate">
+		<MainButton></MainButton>
+	</div>
 </section>
 
 <style>
@@ -16,7 +20,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 900px;
+		height: 95vh;
 	}
 	.title {
 		text-align: center;
@@ -26,6 +30,18 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
+	}
+
+	.animate-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		animation: slideUp 0.7s ease;
+	}
+
+	.animate {
+		animation: fadeIn 0.7s ease;
 	}
 
 	.subtitle {

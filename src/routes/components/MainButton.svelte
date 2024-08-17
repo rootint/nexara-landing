@@ -34,11 +34,17 @@
 
 <style>
 	.cta-btn {
-		background: linear-gradient(to right, #222 70%, #444);
+		background-image: linear-gradient(to right, #222 0%, #555 50%, #222 100%);
+		background-size: 200% auto;
 		padding: 24px 36px;
 		border-radius: 12px;
 		border: none;
 		cursor: pointer;
+		min-width: 274px;
+		transition: background-position 0.5s ease-out;
+	}
+	.cta-btn:hover {
+		animation: gradient-shift 2s linear infinite;
 	}
 	.row {
 		display: flex;
@@ -51,10 +57,25 @@
 		color: #fff;
 		font-weight: 450;
 		font-size: 20px;
+		background-color: none;
 	}
 
 	.light {
-		background: linear-gradient(to right, #fff 70%, rgba(255, 255, 255, 0.5));
+		background-image: linear-gradient(to right, #fff 0%, #ddd 50%, #fff 100%);
+		background-size: 200% auto;
+	}
+	.light p {
 		color: #222;
+		background-color: none;
+		background-image: none;
+	}
+
+	@keyframes gradient-shift {
+		0% {
+			background-position: 0% center;
+		}
+		100% {
+			background-position: -200% center;
+		}
 	}
 </style>

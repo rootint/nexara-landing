@@ -129,11 +129,15 @@
 		display: flex;
 		flex-direction: row;
 	}
+    .text-container {
+        padding-right: 16px;
+    }
 	.text-container h4 {
 		color: var(--bg);
 		text-align: start;
 	}
 	.text-container p {
 		color: #ccc;
+        text-align: start;
 	}
 </style>
