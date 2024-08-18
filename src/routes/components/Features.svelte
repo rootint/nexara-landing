@@ -69,6 +69,7 @@
 	.features {
 		display: flex;
 		flex-direction: column;
+        margin-top: 72px;
 	}
 	.bento-grid {
 		display: grid;

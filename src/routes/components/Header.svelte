@@ -41,6 +41,10 @@
 		align-items: center;
 		margin: 0 0;
 		margin-top: 24px;
+        position: absolute;
+        left: 16px;
+        top: 0;
+        right: 16px;
 	}
 
 	@media (max-width: 768px) {

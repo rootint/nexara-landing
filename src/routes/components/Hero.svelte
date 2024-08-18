@@ -1,9 +1,12 @@
 <script>
+	import CompanySlider from './CompanySlider.svelte';
 	import MainButton from './MainButton.svelte';
+	import ProductRadar from './ProductRadar.svelte';
 </script>
 
 <section class="hero">
-	<div class="animate-text">
+    <div class="animate-text">
+        <ProductRadar></ProductRadar>
 		<h1 class="title">Сократите расходы на LLM в 5 раз</h1>
 		<p class="subtitle">
 			Создавайте более быстрые и дешевые модели на основе своих данных. Без знаний ML.
@@ -12,6 +15,7 @@
 	<div class="animate">
 		<MainButton></MainButton>
 	</div>
+	<CompanySlider></CompanySlider>
 </section>
 
 <style>
@@ -20,7 +24,10 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 95vh;
+		margin: 0 auto;
+		height: 100vh;
+		position: relative;
+		min-height: -webkit-fill-available;
 	}
 	.title {
 		text-align: center;

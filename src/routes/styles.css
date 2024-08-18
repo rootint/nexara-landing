@@ -3,7 +3,8 @@
 	--bg: #fff;
 	--text-2: #696969;
 	--bg-2: #f5f5f5;
-	--desktop-width: 1368px;
+	/* --desktop-width: 1368px; */
+    --desktop-width: 1368px;
 }
 
 * {
